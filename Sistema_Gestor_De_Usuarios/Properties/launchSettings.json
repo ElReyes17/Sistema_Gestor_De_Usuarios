@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:17708",
+      "sslPort": 44323
+    }
+  },
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5293",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PasswordRegex": "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d).{8,}$",
+        "PhoneRegex": "^\\+?\\d{1,4}?[-.\\s]?\\(?\\d+\\)?[-.\\s]?\\d+[-.\\s]?\\d+$",
+        "CityCode": "^\\d+$",
+        "CountryCode": "^\\d{1,4}$"
+      }    
+    }  
+  }
+}

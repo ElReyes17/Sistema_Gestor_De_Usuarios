@@ -1,0 +1,6 @@
+@Sistema_Gestor_De_Usuarios_HostAddress = http://localhost:5293
+
+GET {{Sistema_Gestor_De_Usuarios_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

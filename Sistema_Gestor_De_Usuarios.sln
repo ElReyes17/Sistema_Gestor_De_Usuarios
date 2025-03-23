@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_Gestor_De_Usuarios", "Sistema_Gestor_De_Usuarios\Sistema_Gestor_De_Usuarios.csproj", "{32BBC2DE-A406-465F-83AC-CC4D7B7FEFED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CB022ACE-2996-44FF-A447-4613D439B3D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E02E5889-F83A-44E7-8559-1AC727275728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{141F18CF-BD56-4A33-BE12-754DD9276F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_Gestor_De_Usuarios.Infrastructure.Persistence", "Sistema_Gestor_De_Usuarios.Infrastructure.Persistence\Sistema_Gestor_De_Usuarios.Infrastructure.Persistence.csproj", "{B71EA20A-D66E-42A5-BE16-248EC75D58A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_Gestor_De_Usuarios.Core.Application", "Sistema_Gestor_De_Usuarios.Core.Application\Sistema_Gestor_De_Usuarios.Core.Application.csproj", "{9487ECA9-0BEE-449D-9A47-FEBCD7679092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_Gestor_De_Usuarios.Core.Domain", "Sistema_Gestor_De_Usuarios.Core.Domain\Sistema_Gestor_De_Usuarios.Core.Domain.csproj", "{6F13DD0F-418E-4578-ACE7-0B7B057A4176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB8DCC2F-BD9B-4DF4-95F1-0C6F9E949E05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BBC2DE-A406-465F-83AC-CC4D7B7FEFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BBC2DE-A406-465F-83AC-CC4D7B7FEFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BBC2DE-A406-465F-83AC-CC4D7B7FEFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BBC2DE-A406-465F-83AC-CC4D7B7FEFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71EA20A-D66E-42A5-BE16-248EC75D58A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71EA20A-D66E-42A5-BE16-248EC75D58A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71EA20A-D66E-42A5-BE16-248EC75D58A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71EA20A-D66E-42A5-BE16-248EC75D58A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9487ECA9-0BEE-449D-9A47-FEBCD7679092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9487ECA9-0BEE-449D-9A47-FEBCD7679092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9487ECA9-0BEE-449D-9A47-FEBCD7679092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9487ECA9-0BEE-449D-9A47-FEBCD7679092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F13DD0F-418E-4578-ACE7-0B7B057A4176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F13DD0F-418E-4578-ACE7-0B7B057A4176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F13DD0F-418E-4578-ACE7-0B7B057A4176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F13DD0F-418E-4578-ACE7-0B7B057A4176}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32BBC2DE-A406-465F-83AC-CC4D7B7FEFED} = {141F18CF-BD56-4A33-BE12-754DD9276F4C}
+		{CB022ACE-2996-44FF-A447-4613D439B3D8} = {CB8DCC2F-BD9B-4DF4-95F1-0C6F9E949E05}
+		{E02E5889-F83A-44E7-8559-1AC727275728} = {CB8DCC2F-BD9B-4DF4-95F1-0C6F9E949E05}
+		{141F18CF-BD56-4A33-BE12-754DD9276F4C} = {CB8DCC2F-BD9B-4DF4-95F1-0C6F9E949E05}
+		{B71EA20A-D66E-42A5-BE16-248EC75D58A4} = {E02E5889-F83A-44E7-8559-1AC727275728}
+		{9487ECA9-0BEE-449D-9A47-FEBCD7679092} = {CB022ACE-2996-44FF-A447-4613D439B3D8}
+		{6F13DD0F-418E-4578-ACE7-0B7B057A4176} = {CB022ACE-2996-44FF-A447-4613D439B3D8}
+	EndGlobalSection
+EndGlobal
