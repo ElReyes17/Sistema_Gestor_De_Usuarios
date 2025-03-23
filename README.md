@@ -33,6 +33,8 @@ Dentro del AppSettingJson en DefaultConnection, cambiaremos el servidor hacia do
 ```
 "DefaultConnection": "Server={VALOR_A_MODIFICAR};Database=Sistema_Gestor_Usuarios;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
 ```
+![image](https://github.com/user-attachments/assets/4e99111c-e220-4bd7-865e-a53761d98732)
+
 
 ### 2. Comando para ejecutar la configuración de la base de datos.
 
