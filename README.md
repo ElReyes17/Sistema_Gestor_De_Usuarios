@@ -19,7 +19,10 @@ Dentro del flujo podemos encontrar diversas librerías y prácticas que nos ayud
     - Helpers.
     
 Todo bajo la conexión principal basada en un ORM, que en este caso es Entity Framework Core, diseñando la base de datos desde fluent API con Code First, utilizando contexto, configurations y dbSet para probar las acciones de SQL.
-  
+
+## Diagrama
+![image](https://github.com/user-attachments/assets/b00897f1-43b6-462f-99b7-d93bc4043cb6)
+
 
 ## Pasos para configurar el entorno de la app.
 
