@@ -16,7 +16,7 @@ namespace Sistema_Gestor_De_Usuarios.Endpoints
         public static RouteGroupBuilder MapUserEndpoint(this RouteGroupBuilder group)
         {
             group.MapGet("/", GetAllUserAsync)
-                .RequireAuthorization()
+                //.RequireAuthorization()
                 .WithOpenApi(opt =>
                 {
                     opt.Summary = "Obtener todos los usuarios";
@@ -62,6 +62,8 @@ namespace Sistema_Gestor_De_Usuarios.Endpoints
            ISender sender)
         {
             var result = await sender.Send(new GetAllUserQuery());
+            if (result.Value.Count() == 0) return TypedResults.NotFound();
+
             return result != null ? TypedResults.Ok(result) : TypedResults.NotFound();
         }
 
